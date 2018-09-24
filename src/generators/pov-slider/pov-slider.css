@@ -1,0 +1,34 @@
+* { box-sizing: border-box; font-family: sans-serif; }
+.wrap-bdr { padding: 10px; display: inline-block; vertical-align: top; width: 100%; max-width: 500px; border: 1px solid #ddd; text-align: left; margin: 0 15px; min-height: 375px; background:#f8f8f8; }
+
+.field-row { display: block; font-size: 14px; margin: 10px 0 0; }
+.field-row label { display: inline-block; width: 150px; font-size: #ccc; }
+.field-row input { width: 250px; height: 25px; padding: 5px; }
+.field-row input[type="file"] { padding: 0; outline: none; }
+.field-row input[type="text"] { border: 1px solid #ddd; }
+.field-row .smallheader { margin-left: 150px; font-size: 10px; color:rgba(0,0,0,0.5); display: block; }
+
+.pov-slider-wrap { display: inline-block; vertical-align: top; width: 1060px; }
+.pov-slider-wrap h2 { color:rgb(9, 125, 160); margin:30px 15px 20px; }
+.pov-slider-fields { display: inline-block; }
+.pov-slider-fields h3 { margin: 0 0 15px; border-bottom: 1px solid #eee; padding: 5px 0 10px; color:#646464; }
+
+.pov-slider-preview { display: inline-block;  }
+.pov-slider-preview h3 { margin: 0 0 15px; border-bottom: 1px solid #eee; padding: 5px 0 10px; color:#646464; }
+.nav-arrow input[type="text"] {  }
+
+.pov-slider-source { padding: 10px; display: inline-block; max-width: 1030px; width: 100%; border: 1px solid #ddd; text-align: left; margin: 30px 15px; min-height: 300px; background:#f8f8f8; }
+.pov-slider-source h3 { margin: 0; border-bottom: 1px solid #eee; padding: 5px 0 10px; color:#646464; }
+.pov-slider-source pre { overflow: hidden; }
+
+.slider-btns { text-align: right; margin: 15px 0 0; }
+.slider-btns button { padding: 6px 14px; font-size: 14px; margin: 0 0 0 15px; }
+
+
+.trm-pov-slider img { max-width: 100%; }
+.trm-pov-slide { position: relative; }
+.trm-pov-slide .trm-pov-overlay { position: absolute; transform: translateY(-50%); top: 50%; background: rgba(255,255,255,0.9); max-width: 40%; padding: 12px; border-bottom: 3px solid #777; }
+.trm-pov-overlay h2 { color: #646464; margin:0; }
+.trm-pov-overlay p { color: #646464; margin: 10px 0 0; }
+.trm-pov-overlay > img { width: 100px; margin-top:35px; }
+.trm-pov-overlay a { position: absolute; right: 15px; bottom: 15px; height: 35px; width: 35px; }

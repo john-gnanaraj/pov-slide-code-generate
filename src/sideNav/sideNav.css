@@ -1,0 +1,9 @@
+.sideNav-wrap { display: inline-block; vertical-align: top; width: 190px; height: 100%; position: fixed; top: 0; bottom: 0; left: 0; background:#eee; padding-top: 68px; overflow: hidden; }
+.sideNav-wrap:hover { overflow-y: auto; }
+.sideNav-wrap ul { margin: 0; padding: 0; text-align: left; }
+.sideNav-wrap ul li { list-style: none; border-bottom:1px solid #e2e2e2; transition: all ease 0.3s; cursor: pointer; }
+.sideNav-wrap ul li.active { background:#ccc; }
+.sideNav-wrap ul li span { display: block; padding: 10px; font-size: 14px; color:#646464; position: relative; }
+.sideNav-wrap ul li:hover { background:#ccc; }
+.sideNav-wrap ul li.active span { color:#333; }
+.sideNav-wrap ul li.active span:after { content:""; border-bottom: 18px solid transparent; border-top: 18px solid transparent; border-right: 12px solid #fff; position: absolute; top:0; right: -1px; }
