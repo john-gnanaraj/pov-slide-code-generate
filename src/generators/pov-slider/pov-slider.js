@@ -182,24 +182,23 @@ class povSlider extends Component {
                 <h3>Source Code</h3>
                 {
                     this.state.slider.map((item, key) => {
-                        return (<code><pre>{`
-                        <div className="trm-pov-slider">
-                            <div className="trm-pov-slide">         
-                                <div className="trm-pov-imageWrapper">
-                                    <img src="${item.imageWrapperSrc}" alt="${item.imageDesc}" />
-                                </div>
-                                <div className="trm-pov-overlay">
-                                    <h2>${item.title}</h2>
-                                    <p>${item.subTitle}</p>
-                                    <img src="${item.logoImgSrc}" alt="Overlay Logo" className="trm-logo-image" /> 
-                                    <a href="${item.arrowLink}">
-                                        <img src="${item.rightArrowImgSrc}" alt="Navigation Arrow" />
-                                    </a>
-                                </div>              
-                            </div>
-                        </div>
-                        `
-                        }</pre></code>)
+                        return (<pre>{
+`<div class="trm-pov-slider">
+    <div class="trm-pov-slide">         
+        <div class="trm-pov-imageWrapper">
+            <img src="${item.imageWrapperSrc}" alt="${item.imageDesc}" />
+        </div>
+        <div class="trm-pov-overlay">
+            <h2>${item.title}</h2>
+            <p>${item.subTitle}</p>
+            <img src="${item.logoImgSrc}" alt="Overlay Logo" class="trm-logo-image" /> 
+            <a href="${item.arrowLink}">
+                <img src="${item.rightArrowImgSrc}" alt="Navigation Arrow" />
+            </a>
+        </div>              
+    </div>
+</div>`                        
+                        }</pre>)
                     })
                 }
             </div>

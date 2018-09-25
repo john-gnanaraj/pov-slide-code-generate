@@ -19,7 +19,7 @@
 
 .pov-slider-source { padding: 10px; display: inline-block; max-width: 1030px; width: 100%; border: 1px solid #ddd; text-align: left; margin: 30px 15px; min-height: 300px; background:#f8f8f8; }
 .pov-slider-source h3 { margin: 0; border-bottom: 1px solid #eee; padding: 5px 0 10px; color:#646464; }
-.pov-slider-source pre { overflow: hidden; }
+.pov-slider-source pre { overflow: hidden; font-family: monospace, sans-serif; font-size: 12px; line-height: 1.5; margin: 15px 0; }
 
 .slider-btns { text-align: right; margin: 15px 0 0; }
 .slider-btns button { padding: 6px 14px; font-size: 14px; margin: 0 0 0 15px; }
